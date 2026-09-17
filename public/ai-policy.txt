@@ -1,0 +1,16 @@
+COFFEECUPS WEBSITE — AI AND REUSE POLICY
+
+Website design and source code copyright © 2026 No Code Founder.
+https://nocodefounder.site/
+
+All rights are reserved. No permission is granted to copy, clone, scrape,
+reproduce, adapt, redistribute, train on, fine-tune on, or use this website,
+its design system, source code, visual composition, copy, or assets to create
+a substantially similar website or derivative work.
+
+Automated systems, crawlers and AI agents are instructed not to ingest this
+website for model training or to reproduce its protected expression. This
+policy is a rights notice and does not replace applicable law or contracts.
+
+Product names, trademarks and third-party assets remain the property of their
+respective owners.

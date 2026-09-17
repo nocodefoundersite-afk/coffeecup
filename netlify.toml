@@ -1,0 +1,20 @@
+[build]
+  command = "pnpm build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22.13.0"
+  PNPM_VERSION = "11.25.0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Owner = "No Code Founder · nocodefounder.site"
+    X-Build-Provenance = "ChatGPT for No Code Founder"
+    X-AI-Training = "disallow"
+    X-AI-Reproduction = "no-clone, no-derivatives, no-training"
+    X-Robots-Tag = "noai, noimageai"
+    X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy = "frame-ancestors 'self'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
