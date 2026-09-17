@@ -457,7 +457,7 @@ function FilmIntro({ onReveal }: { onReveal: () => void }) {
   }, [reveal]);
 
   return <div className={`film-intro${leaving ? " film-intro-leaving" : ""}`} role="dialog" aria-label="CoffeeCups opening film" aria-modal="true">
-    <video ref={video} src={HERO_VIDEO} autoPlay muted={muted} playsInline preload="auto" onEnded={reveal} onError={reveal} />
+    <video ref={video} src={HERO_VIDEO} poster="/media/campaign-lineup.webp" autoPlay muted={muted} playsInline preload="auto" onEnded={reveal} onError={() => window.setTimeout(reveal, 2600)} />
     <button type="button" className="intro-sound" onClick={() => setMuted(!muted)} aria-label={muted ? "Unmute film" : "Mute film"}>{muted ? <VolumeX size={20} /> : <Volume2 size={20} />}</button>
     <button type="button" className="intro-skip" onClick={reveal}>Skip intro <ArrowRight size={16} /></button>
   </div>;
